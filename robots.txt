@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://ads-ads.com.br/solucoes/negocios-locais-geracao-leads/sitemap.xml
+
+User-agent: OAI-SearchBot
+Allow: /
