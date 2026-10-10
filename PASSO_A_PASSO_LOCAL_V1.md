@@ -1,19 +1,15 @@
-# LP Negócios Locais — V1
+# ADS & ADS — Negócios Locais V1.3
 
-## Para homologar em um projeto separado no Cloudflare
-1. Crie um repositório novo, por exemplo `adsandads-negocios-locais`.
-2. Faça upload de todos os arquivos desta pasta na raiz.
-3. Conecte o repositório a um novo projeto Cloudflare Pages.
-4. Use a URL `pages.dev` para revisar a página antes de publicar no domínio oficial.
+## Alteração desta versão
+- Removidas as linhas coloridas que passavam por trás da tipografia no fluxo.
+- Mantidos os 8 pontos da jornada em pills limpas.
+- Nova mensagem abaixo do fluxo com hierarquia e contraste maiores.
 
-## URL final recomendada
-`https://ads-ads.com.br/solucoes/negocios-locais-geracao-leads/`
-
-## Antes de publicar no domínio oficial
-- Configure `whatsappNumber` e `leadWebhook` em `site.config.js`.
-- Troque o slot do Google Partner pelo snippet HTML oficial do seu painel Google Partners.
-- Revise clientes/logos e autorizações de exposição.
-
-
-## V1.1 — Hero atualizada
-A imagem `hero-negocios-locais.webp` / `hero-negocios-locais.png` já está integrada à primeira dobra. Envie os dois arquivos junto com `index.html` e `styles.css` ao GitHub.
+## Como publicar
+1. Extraia o ZIP.
+2. No GitHub, abra o repositório da LP de Negócios Locais.
+3. Add file → Upload files.
+4. Selecione todos os arquivos desta pasta e substitua os atuais.
+5. Commit sugerido: `V1.3 - fluxo limpo sem linhas sobre o texto`.
+6. Aguarde o novo deploy no Cloudflare.
+7. Teste primeiro a URL específica da implantação.
